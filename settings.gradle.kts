@@ -7,3 +7,4 @@ rootProject.name = "kopring-hexagonal-architecture"
 include("domain")
 include("application")
 include("adapter")
+include("api")

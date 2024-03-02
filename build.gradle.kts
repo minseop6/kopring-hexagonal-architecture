@@ -7,8 +7,13 @@ plugins {
     kotlin("plugin.spring") version "1.9.22"
 }
 
+springBoot {
+    mainClass = "com.example.api.ApiApplication"
+}
+
 allprojects {
     apply(plugin = "kotlin")
+    apply(plugin = "kotlin-spring")
     apply(plugin = "io.spring.dependency-management")
     apply(plugin = "org.springframework.boot")
 
